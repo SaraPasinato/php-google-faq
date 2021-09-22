@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
     font-family: 'Roboto',arial,sans-serif;
+    line-height: 1.54;
+    font-size: 14;
+    font-weight: 400;
     padding: 0;
     margin: 0;
 }
@@ -11,9 +14,41 @@
 }
 
 .mt-4{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 section p{
     margin-top: 1rem;
+    color: rgba(0,0,0,0.87);
+}
+
+h3{ 
+   color: #3c4043;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 26px;
+   margin-bottom: 1rem;
+}
+ol{
+    margin: 0 0 0 16px;
+    padding: 0;
+}
+li{
+    line-height: 24px;
+    padding-left: 16px;
+}
+a{
+    text-decoration: none;
+}
+a, a:hover, a:visited {
+    color: #3367d6;
+}
+/* padding ol*/
+.smANld{
+    padding-top: 12px;
+}
+/*icona link conttataci*/
+.N6CPUe {
+    background: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='rgb(51, 103, 214)'%3E%3Cpath d='M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z'/%3E%3C/svg%3E") right/12px no-repeat;
+    padding-right: 14px;
 }
