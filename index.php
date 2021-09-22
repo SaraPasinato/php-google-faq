@@ -51,21 +51,21 @@ $questions = [
     <header></header>
     <main class="container">
         <?php foreach ($questions as $question => $item) { ?>
-            <section class="mt-4">
+            <section id="section-q-<?= $question ?>"class="mt-4">
                 <h2><?php echo $item['title'] ?></h2>
-                <p><?php echo $item['description'] ?></p>
+                <div><?php echo $item['description'] ?></div>
                 <h3>
                     <?php
                      $subtitle= (!empty($item['subtitle'])) ? $item['subtitle']: '';
                      echo $subtitle
                      ?>
                 </h3>
-                <p>
+                <div>
                     <?php
                      $desc= (!empty($item['sub_description'])) ? $item['sub_description']: '';
                      echo $desc
                      ?>
-                </p>
+                </div>
                 
             </section>
         <?php } ?>
